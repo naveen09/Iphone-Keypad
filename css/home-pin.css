@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.woff') format('woff'), url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), url("../fonts/OpenSans-Light-webfont.svg#opensans") format("svg");
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #1D3649;
+}
+.ui-bar, .ui-body {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+.pin-info {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.pin-input {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.pin-input .ui-input-text {
+    width: 30px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    border: none !important;
+    border-radius: 0px;
+    border-bottom: 1px solid #FFFFFF !important;
+    background-color: #1D3649 !important;
+}
+
+.pin-input .ui-input-text:hover {
+    box-shadow: 0px 0px 0px transparent inset;
+}
+
+.pin-input .ui-input-text:active {
+    box-shadow: 0px 0px 0px transparent inset;
+}
+
+.pin-input, .ui-shadow-inset {
+    box-shadow: 0px 0px 0px transparent inset;
+}
+
+.pin {
+    height: 100px;
+}
+
+.keypad-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.number-pad {
+    clear: both;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    padding-left: 15px;
+
+}
+
+.num {
+    border: 1px solid #617988;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 80px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: #ffffff;
+    color: #fff;
+    transition-property: background-color .2s linear 0s;
+    -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s;
+}
+
+.txt {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: helvicta, sans-serif, arial, serif;
+    line-height: 10px;
+    color: #617988;
+    margin-top: 25px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.span4 {
+    width: 80px;
+    float: left;
+    margin: 0 8px 10px 8px;
+    text-shadow: none !important;
+}
+
+.small {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.button-bar {
+    clear: both;
+    color: #ffffff !important;
+}
+
+.button-bar a {
+    text-shadow: 0px 1px 0px transparent !important;
+    color: #ffffff !important;
+}
+
+.cancelBtn {
+    text-decoration: none;
+}
